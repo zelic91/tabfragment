@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="menu">
+        <item >item 01</item>
+        <item >item 02</item>
+        <item >item 03</item>
+        <item >item 04</item>
+        <item >item 05</item>
+    </string-array>
+
+</resources>

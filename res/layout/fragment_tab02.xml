@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:animateOnClick="true"
+        android:handle="@+id/handle"
+        android:content="@+id/content"
+		android:rotation="180"        
+        >
+        <Button android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="Pull"
+            
+            />
+        <LinearLayout android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+            <Button android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 01"/>
+            <Button android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 02"/>
+            <Button android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 03"/>
+        </LinearLayout>
+    </SlidingDrawer>
+    
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center"
+	    android:text="TAB 02"/>
+</LinearLayout>
